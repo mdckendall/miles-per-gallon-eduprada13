@@ -1,5 +1,8 @@
-#your code here!
+miles = float(input("Enter the number of miles driven: "))
+gallons = float(input("Enter the number of gallons used: "))
 
-#read in the miles and read in the gallons used.
 
-#display the miles per gallon
+mpg = miles / gallons
+
+
+print("The miles per gallon is:", mpg)
